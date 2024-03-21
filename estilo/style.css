@@ -21,6 +21,8 @@ header {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 header > h1 {
@@ -60,7 +62,6 @@ main {
     max-width: 800px;
     margin: auto;
     padding: 15px 10px 10px 10px;
-    text-align: justify;
 }
 
 article > h1 {
