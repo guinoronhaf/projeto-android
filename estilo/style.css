@@ -48,7 +48,7 @@ nav > a {
     font-weight: normal;
     font-size: 0.8em;
     margin-right: 30px;
-    margin-left: 5px;
+    margin-left: 20px;
     transition-duration: 0.5s;
 }
 
@@ -80,7 +80,7 @@ article > h1 {
     line-height: 2em;
 }
 
-section > h2 {
+article > h2 {
     font-family: 'android', Arial, Helvetica, sans-serif;
     color: var(--verde2);
     background-image: linear-gradient(to right, var(--fundo), white);
