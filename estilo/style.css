@@ -8,6 +8,10 @@
     --texto: 'Oswald';
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: var(--fundo);
@@ -21,8 +25,6 @@ header {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;
-    margin-right: -10px;
-    margin-left: -10px;
 }
 
 header > h1 {
