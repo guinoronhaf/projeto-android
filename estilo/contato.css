@@ -77,12 +77,13 @@ main {
 }
 
 .bloco:hover {
-    border: 2px solid var(--verde1);
+    border: 2.5px solid var(--verde1);
 }
 
 .bloco > p {
     margin-top: 40px;
     font-family: 'android', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 a {
