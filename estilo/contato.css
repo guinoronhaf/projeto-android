@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+:root {
+    --fundo: #84E1AD;
+    --verde1: #3CD983;
+    --verde2: #1A5C38;
+    --texto: 'Oswald';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--fundo);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--verde1), var(--verde2));
+    color: white;
+    font-family: var(--texto), Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+header > h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header > p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1em;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-right: 30px;
+    margin-left: 20px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--verde1);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.bloco {
+    border: 2px solid grey;
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+    margin: auto;
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    transition-duration: 0.25s;
+    text-align: center;
+}
+
+.bloco:hover {
+    border: 2px solid var(--verde1);
+}
+
+.bloco > p {
+    margin-top: 40px;
+    font-family: 'android', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--verde2);
+}
