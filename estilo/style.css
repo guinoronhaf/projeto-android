@@ -26,6 +26,7 @@ header {
     padding: 10px;
     display: block;
     unicode-bidi: isolate;
+    width: 100%;
 }
 
 header > h1 {
@@ -40,7 +41,6 @@ header > p {
     font-size: 1em;
     padding-bottom: 30px;
     height: auto;
-    margin: auto;
 }
 
 nav > a {
