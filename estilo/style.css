@@ -22,7 +22,7 @@ header {
     background-image: linear-gradient(to bottom, var(--verde1), var(--verde2));
     color: white;
     font-family: var(--texto), Arial, Helvetica, sans-serif;
-    margin: 0px -20px 0px 0px; 
+    margin: 0px; 
     padding: 10px;
 }
 
