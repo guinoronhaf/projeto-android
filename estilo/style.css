@@ -22,7 +22,7 @@ header {
     background-image: linear-gradient(to bottom, var(--verde1), var(--verde2));
     color: white;
     font-family: var(--texto), Arial, Helvetica, sans-serif;
-    margin: 0px; 
+    margin: 0px -20px 0px 0px; 
     padding: 10px;
 }
 
@@ -58,7 +58,7 @@ nav > a:hover {
 
 main {
     background-color: white;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 10px;
