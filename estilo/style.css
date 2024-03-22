@@ -93,4 +93,6 @@ article > h2 {
 
 .displayed {
     width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
