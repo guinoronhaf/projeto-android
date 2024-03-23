@@ -79,6 +79,25 @@ article > h1 {
     line-height: 2em;
 }
 
+strong {
+    color: var(--verde2);
+    font-weight: bold;
+}
+
+.externo {
+    color: var(--verde2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.externo::after { /*colocar algo depos*/
+    content: '\1F517';
+}
+
+.externo:hover {
+    text-decoration: underline;
+}
+
 article > h2 {
     font-family: 'android', Arial, Helvetica, sans-serif;
     color: var(--verde2);
@@ -91,4 +110,63 @@ article > h2 {
     width: 100%;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+#bugdroid {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    background-color: var(--verde2);
+    margin: 0 -20px 30px -20px; /*fazer colar no main*/
+    padding: 20px;
+    padding-bottom: 57%; /*tirar as bordas pretas quando abre o vídeo*/
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--fundo);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.404);
+}
+
+aside > h3 {
+    background-color: var(--verde2);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px; /*margem negativa serve pra fazer vazar a borda*/
+    border-radius: 10px 10px 0px 0px;
+    font-family: var(--texto), Arial, Helvetica, sans-serif;
+}
+
+aside > ul {
+    font-family: var(--texto);
+    list-style-type: '\1F5F8\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--verde2);
+    color: white;
+    font-family: var(--texto), Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+footer > strong {
+    color: white;
+    font-weight: bold;
 }
